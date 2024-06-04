@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class Solution {
 
-    public static int romanToInteger(String s) {
+    public static int romanToInt(String s) {
 
         HashMap<Character, Integer> map = new HashMap<>();    
         map.put('I', 1);
